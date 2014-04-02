@@ -34,7 +34,7 @@ public class Rock extends AbstractGameObject {
 
 	@Override
 	public void render(SpriteBatch batch) {
-		TextureRegion reg = null;
+		TextureRegion reg = null;  // thuc chat la mot con tro ma thoi
 		float relX = 0;
 		float relY = 0;
 		
@@ -52,6 +52,14 @@ public class Rock extends AbstractGameObject {
 				reg.getRegionHeight(),
 				false,
 				false);
+		// draw middle rock
+		relX = 0;
+		reg = middleEdge;
+		
+		for(int i=0; i< length; i++){
+			
+		}
+		
 		
 	}
 }
