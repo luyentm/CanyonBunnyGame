@@ -1,0 +1,89 @@
+
+canyonbunny.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bunny_head
+  rotate: false
+  xy: 614, 374
+  size: 126, 86
+  orig: 126, 86
+  offset: 0, 0
+  index: -1
+cloud01
+  rotate: false
+  xy: 2, 172
+  size: 350, 190
+  orig: 350, 190
+  offset: 0, 0
+  index: -1
+cloud02
+  rotate: false
+  xy: 614, 654
+  size: 350, 192
+  orig: 350, 192
+  offset: 0, 0
+  index: -1
+cloud03
+  rotate: false
+  xy: 614, 462
+  size: 350, 190
+  orig: 350, 190
+  offset: 0, 0
+  index: -1
+item_feather
+  rotate: false
+  xy: 742, 416
+  size: 50, 44
+  orig: 50, 44
+  offset: 0, 0
+  index: -1
+item_gold_coin
+  rotate: false
+  xy: 2, 111
+  size: 132, 59
+  orig: 132, 59
+  offset: 0, 0
+  index: -1
+item_gold_coin1
+  rotate: false
+  xy: 514, 302
+  size: 60, 60
+  orig: 60, 60
+  offset: 0, 0
+  index: -1
+mountain_left
+  rotate: false
+  xy: 2, 606
+  size: 610, 240
+  orig: 610, 240
+  offset: 0, 0
+  index: -1
+mountain_right
+  rotate: false
+  xy: 2, 364
+  size: 610, 240
+  orig: 610, 240
+  offset: 0, 0
+  index: -1
+rock_edge
+  rotate: false
+  xy: 447, 3
+  size: 65, 359
+  orig: 65, 359
+  offset: 0, 0
+  index: -1
+rock_middle
+  rotate: false
+  xy: 354, 2
+  size: 91, 360
+  orig: 91, 360
+  offset: 0, 0
+  index: -1
+water_overlay
+  rotate: false
+  xy: 966, 695
+  size: 31, 151
+  orig: 31, 151
+  offset: 0, 0
+  index: -1
