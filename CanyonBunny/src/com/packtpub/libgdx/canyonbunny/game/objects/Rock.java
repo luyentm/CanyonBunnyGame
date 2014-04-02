@@ -17,7 +17,7 @@ public class Rock extends AbstractGameObject {
 	}
 
 	private void init() {
-		dimention.set(1, 1.5f);
+		dimension.set(1, 1.5f);
 		regEdge = Assets.instance.rock.edge;
 		middleEdge = Assets.instance.rock.middle;
 		setLength(1);
@@ -39,11 +39,11 @@ public class Rock extends AbstractGameObject {
 		float relY = 0;
 		
 		reg = regEdge;
-		relX -= dimention.x/4;
+		relX -= dimension.x/4;
 		batch.draw(reg.getTexture(),
 				position.x + relX, position.y + relY, 
 				origin.x, origin.y,
-				dimention.x/4, dimention.y ,
+				dimension.x/4, dimension.y ,
 				scale.x, scale.y,
 				rotation,
 				reg.getRegionX(),
@@ -54,12 +54,36 @@ public class Rock extends AbstractGameObject {
 				false);
 		// draw middle rock
 		relX = 0;
-		reg = middleEdge;
+		reg = middleEdge; // gan cho no 1 doi tuong moi
 		
 		for(int i=0; i< length; i++){
-			
+			// khi  muon ve cai gi thi phai goi batch.draw trong do batch la
+			// mot doi tuong SpriteBatch
+			// VE thoi
+			batch.draw(reg.getTexture(),
+				position.x + relX,position.y + relY,
+				origin.x, origin.y,
+				dimension.x, dimension.y,
+				scale.x, scale.y,
+				rotation,
+				reg.getRegionX(), reg.getRegionY(),
+				reg.getRegionWidth(), reg.getRegionHeight(),
+				false, false);
+			// cap nhat lai rel (day coi nhu  la cap nhat lai vi tri de ve tren truc Ox thoi)
+			relX += dimension.x;
 		}
 		
+		// draw right edge => don gian la t lay doi xung thoi
+		reg = regEdge;
+		batch.draw(reg.getTexture(),
+				position.x + relX, position.y + relY,
+				origin.x + dimension.x / 8, origin.y,
+				dimension.x / 4, dimension.y,
+				scale.x, scale.y,
+				rotation,
+				reg.getRegionX(), reg.getRegionY(),
+				reg.getRegionWidth(), reg.getRegionHeight(),
+				true, false); // chu y la co 1 lan flip
 		
 	}
 }
