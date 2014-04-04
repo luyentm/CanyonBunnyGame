@@ -47,19 +47,32 @@ public class Mountains extends AbstractGameObject{
 					);
 			xRel += dimension.x;
 			
-			//reg= regMountainRight;
-			//batch.draw(reg.getTexture(),
-					
-			//		)
+			reg= regMountainRight;
+			batch.draw(reg.getTexture(),
+					origin.x + xRel, origin.y + yRel + position.y,
+					origin.x, origin.y,
+					dimension.x, dimension.y,
+					scale.x, scale.y,
+					rotation,
+					reg.getRegionX(), reg.getRegionY(),
+					reg.getRegionWidth(), reg.getRegionHeight(),
+					false, false		
+					);
+			xRel += dimension.x;
 		}
+		//reset Color to White
+		batch.setColor(1, 1, 1, 1);
 		
 	}
 	
 	
 
 	@Override
-	public void render(SpriteBatch Batch) {
-		// TODO Auto-generated method stub
+	public void render(SpriteBatch batch) {
+		drawMountain(batch, 0.5f, 0.5f, 0.5f);
+		drawMountain(batch, 0.25f, 0.25f, 0.7f);
+		drawMountain(batch, 0.05f, 0.0f, 0.9f);
+		
 		
 	}
 }

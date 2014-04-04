@@ -22,5 +22,5 @@ public abstract class AbstractGameObject {
 	}
 	
 	public void update(float deltaTime){}
-	public abstract void render(SpriteBatch Batch);
+	public abstract void render(SpriteBatch batch);
 }
