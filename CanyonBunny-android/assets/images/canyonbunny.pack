@@ -40,16 +40,16 @@ item_feather
   index: -1
 item_gold_coin
   rotate: false
-  xy: 2, 2
-  size: 132, 59
-  orig: 132, 59
-  offset: 0, 0
-  index: -1
-item_gold_coin1
-  rotate: false
   xy: 387, 105
   size: 60, 60
   orig: 60, 60
+  offset: 0, 0
+  index: -1
+item_gold_coin10
+  rotate: false
+  xy: 2, 2
+  size: 132, 59
+  orig: 132, 59
   offset: 0, 0
   index: -1
 mountain_left

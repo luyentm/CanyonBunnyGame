@@ -61,7 +61,7 @@ public class WorldController extends InputAdapter {
 		regions.add(Assets.instance.goldCoin.goldCoin);
 		for(int i=0; i<testSprites.length; i++){
 			Sprite spr = new Sprite(regions.random());
-			spr.setSize(2,2);
+			spr.setSize(1,1);
 			spr.setOrigin(spr.getWidth()/2.0f, spr.getHeight()/2.0f);
 			float randomX = MathUtils.random(-2.0f,2.0f);
 			float randomY = MathUtils.random(-2.0f,2.0f);
