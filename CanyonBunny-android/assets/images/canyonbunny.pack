@@ -3,87 +3,192 @@ canyonbunny.png
 format: RGBA8888
 filter: Nearest,Nearest
 repeat: none
+anim_bunny_copter
+  rotate: false
+  xy: 2, 86
+  size: 125, 112
+  orig: 125, 112
+  offset: 0, 0
+  index: 1
+anim_bunny_copter
+  rotate: false
+  xy: 537, 357
+  size: 125, 112
+  orig: 125, 112
+  offset: 0, 0
+  index: 2
+anim_bunny_copter
+  rotate: false
+  xy: 664, 357
+  size: 125, 112
+  orig: 125, 112
+  offset: 0, 0
+  index: 3
+anim_bunny_copter
+  rotate: false
+  xy: 791, 357
+  size: 125, 112
+  orig: 125, 112
+  offset: 0, 0
+  index: 4
+anim_bunny_copter
+  rotate: false
+  xy: 155, 157
+  size: 125, 112
+  orig: 125, 112
+  offset: 0, 0
+  index: 5
+anim_bunny_normal
+  rotate: false
+  xy: 541, 471
+  size: 130, 85
+  orig: 130, 85
+  offset: 0, 0
+  index: 1
+anim_bunny_normal
+  rotate: false
+  xy: 673, 471
+  size: 130, 85
+  orig: 130, 85
+  offset: 0, 0
+  index: 2
+anim_bunny_normal
+  rotate: false
+  xy: 805, 471
+  size: 130, 85
+  orig: 130, 85
+  offset: 0, 0
+  index: 3
+anim_gold_coin
+  rotate: false
+  xy: 937, 500
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: 1
+anim_gold_coin
+  rotate: false
+  xy: 316, 213
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: 2
+anim_gold_coin
+  rotate: false
+  xy: 316, 155
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: 3
+anim_gold_coin
+  rotate: false
+  xy: 316, 97
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: 4
+anim_gold_coin
+  rotate: false
+  xy: 129, 99
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: 5
+anim_gold_coin
+  rotate: false
+  xy: 187, 99
+  size: 56, 56
+  orig: 56, 56
+  offset: 0, 0
+  index: 6
 bunny_head
   rotate: false
-  xy: 354, 167
-  size: 126, 86
-  orig: 126, 86
+  xy: 2, 2
+  size: 122, 82
+  orig: 122, 82
+  offset: 0, 0
+  index: -1
+carrot
+  rotate: false
+  xy: 245, 103
+  size: 20, 52
+  orig: 20, 52
   offset: 0, 0
   index: -1
 cloud01
   rotate: false
-  xy: 2, 63
-  size: 350, 190
-  orig: 350, 190
+  xy: 357, 391
+  size: 178, 78
+  orig: 178, 78
   offset: 0, 0
   index: -1
 cloud02
   rotate: false
-  xy: 512, 298
-  size: 350, 192
-  orig: 350, 192
+  xy: 155, 271
+  size: 198, 88
+  orig: 198, 88
   offset: 0, 0
   index: -1
 cloud03
   rotate: false
-  xy: 512, 106
-  size: 350, 190
-  orig: 350, 190
+  xy: 357, 471
+  size: 182, 85
+  orig: 182, 85
+  offset: 0, 0
+  index: -1
+goal
+  rotate: false
+  xy: 155, 361
+  size: 200, 195
+  orig: 200, 195
   offset: 0, 0
   index: -1
 item_feather
   rotate: false
-  xy: 136, 17
-  size: 50, 44
-  orig: 50, 44
+  xy: 415, 349
+  size: 46, 40
+  orig: 46, 40
   offset: 0, 0
   index: -1
 item_gold_coin
   rotate: false
-  xy: 387, 105
-  size: 60, 60
-  orig: 60, 60
-  offset: 0, 0
-  index: -1
-item_gold_coin10
-  rotate: false
-  xy: 2, 2
-  size: 132, 59
-  orig: 132, 59
+  xy: 357, 333
+  size: 56, 56
+  orig: 56, 56
   offset: 0, 0
   index: -1
 mountain_left
   rotate: false
-  xy: 2, 255
-  size: 508, 116
-  orig: 508, 116
+  xy: 2, 785
+  size: 1000, 225
+  orig: 1000, 225
   offset: 0, 0
   index: -1
 mountain_right
   rotate: false
-  xy: 2, 373
-  size: 508, 117
-  orig: 508, 117
+  xy: 2, 558
+  size: 1000, 225
+  orig: 1000, 225
   offset: 0, 0
   index: -1
 rock_edge
   rotate: false
-  xy: 957, 131
-  size: 65, 359
-  orig: 65, 359
+  xy: 90, 200
+  size: 63, 356
+  orig: 63, 356
   offset: 0, 0
   index: -1
 rock_middle
   rotate: false
-  xy: 864, 130
-  size: 91, 360
-  orig: 91, 360
+  xy: 2, 200
+  size: 86, 356
+  orig: 86, 356
   offset: 0, 0
   index: -1
 water_overlay
   rotate: false
-  xy: 354, 14
-  size: 31, 151
-  orig: 31, 151
+  xy: 282, 109
+  size: 32, 160
+  orig: 32, 160
   offset: 0, 0
   index: -1
